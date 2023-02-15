@@ -21,6 +21,9 @@ public class UseBike {
 		for(Bike x:b) {
 			System.out.println(x.getBrand()+" "+x.getPrice()+" "+x.getModel()+" "+x.getIsElectric());
 		}
+		for(Bike x:b) {
+			System.out.println(x.getBrand());
+		}
 		
 	}
 
